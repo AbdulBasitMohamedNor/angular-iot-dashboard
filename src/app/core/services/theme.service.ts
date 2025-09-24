@@ -13,21 +13,8 @@ export class ThemeService {
   public isDark = this._isDark.asReadonly();
 
   constructor() {
-    // Load saved theme
-    const savedTheme = localStorage.getItem('theme') as Theme;
-    if (savedTheme) {
-      this.setTheme(savedTheme);
-    } else {
-      this.setTheme('auto');
-    }
-
-    // Listen for system theme changes
-    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
-      if (this._theme() === 'auto') {
-        this._isDark.set(e.matches);
-        this.applyTheme();
-      }
-    });
+    // Always force dark mode
+    this.setTheme('dark');
 
     // Apply theme changes
     effect(() => {
@@ -35,36 +22,21 @@ export class ThemeService {
     });
   }
 
-  setTheme(theme: Theme): void {
-    this._theme.set(theme);
-    localStorage.setItem('theme', theme);
+  setTheme(_theme: Theme): void {
+    // Always force dark mode regardless of input
+    this._theme.set('dark');
+    localStorage.setItem('theme', 'dark');
     this.updateDarkMode();
   }
 
   toggleTheme(): void {
-    const current = this._theme();
-    if (current === 'light') {
-      this.setTheme('dark');
-    } else if (current === 'dark') {
-      this.setTheme('auto');
-    } else {
-      // If auto, toggle to light
-      this.setTheme('light');
-    }
+    // Do nothing - theme is permanently dark
+    return;
   }
 
   private updateDarkMode(): void {
-    const theme = this._theme();
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    
-    let isDark = false;
-    if (theme === 'dark') {
-      isDark = true;
-    } else if (theme === 'auto') {
-      isDark = prefersDark;
-    }
-
-    this._isDark.set(isDark);
+    // Always dark mode
+    this._isDark.set(true);
   }
 
   private applyTheme(): void {

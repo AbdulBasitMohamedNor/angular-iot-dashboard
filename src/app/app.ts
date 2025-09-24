@@ -11,16 +11,8 @@ import { ThemeService } from './core/services/theme.service';
 export class App {
   private themeService = inject(ThemeService);
   
-  // Expose theme service properties for template
-  get isDark() {
-    return this.themeService.isDark();
-  }
-  
-  get currentTheme() {
-    return this.themeService.theme();
-  }
-  
-  toggleTheme() {
-    this.themeService.toggleTheme();
+  constructor() {
+    // Force dark mode permanently
+    this.themeService.setTheme('dark');
   }
 }

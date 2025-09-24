@@ -33,62 +33,16 @@
         }
       }
     }
-    
-    .theme-toggle {
-      padding: 10px 16px;
-      border: 2px solid rgba(255, 255, 255, 0.2);
-      background: rgba(255, 255, 255, 0.05);
-      color: #ffffff;
-      border-radius: 25px;
-      cursor: pointer;
-      font-size: 14px;
-      font-weight: 500;
-      transition: all 0.3s ease;
-      
-      &:hover {
-        background: rgba(100, 255, 218, 0.1);
-        border-color: #64ffda;
-        color: #64ffda;
-        transform: translateY(-1px);
-      }
-    }
   }
 }
 
-// Dark theme styles
-body.dark-theme {
-  .app-container {
-    background: linear-gradient(135deg, #0a0f1c 0%, #1a1f2e 100%);
-    
-    .app-header {
-      background: rgba(255, 255, 255, 0.02);
-      border-bottom-color: rgba(255, 255, 255, 0.1);
-    }
-  }
-}
-
-// Light theme styles  
-body.light-theme {
-  .app-container {
-    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-    color: #333;
-    
-    .app-header {
-      background: rgba(255, 255, 255, 0.8);
-      border-bottom-color: rgba(0, 0, 0, 0.1);
-      
-      .theme-toggle {
-        color: #333;
-        border-color: rgba(0, 0, 0, 0.2);
-        background: rgba(255, 255, 255, 0.5);
-        
-        &:hover {
-          background: rgba(100, 255, 218, 0.2);
-          border-color: #00bcd4;
-          color: #00bcd4;
-        }
-      }
-    }
+// Permanent dark theme styles
+.app-container {
+  background: linear-gradient(135deg, #0a0f1c 0%, #1a1f2e 100%);
+  
+  .app-header {
+    background: rgba(255, 255, 255, 0.02);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
   }
 }
 
@@ -103,11 +57,6 @@ body.light-theme {
       .app-navigation .nav-link {
         font-size: 14px;
         padding: 10px 20px;
-      }
-      
-      .theme-toggle {
-        font-size: 12px;
-        padding: 8px 14px;
       }
     }
   }
