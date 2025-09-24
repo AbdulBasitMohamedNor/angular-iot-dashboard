@@ -1,0 +1,18 @@
+<main class="app-container">
+  <header class="app-header">
+    <nav class="app-navigation">
+      <a routerLink="/iot/dashboard" class="nav-link">🏭 Industrial Control Center</a>
+    </nav>
+    <div class="header-actions">
+      <button class="theme-toggle" (click)="toggleTheme()" [title]="'Current theme: ' + currentTheme">
+        @if (isDark) {
+          ☀️ Light Mode
+        } @else {
+          🌙 Dark Mode
+        }
+      </button>
+    </div>
+  </header>
+
+  <router-outlet />
+</main>
