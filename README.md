@@ -1,6 +1,8 @@
 # Angular IoT Dashboard 🏭
 
 A modern, responsive Industrial IoT Control Center dashboard built with Angular 17+ featuring real-time sensor monitoring, interactive charts, and system alerts management.
+<img width="901" height="831" alt="image" src="https://github.com/user-attachments/assets/867d1fcb-d493-4cbb-a9ad-15f479d6404f" />
+
 
 ## 🚀 Features
 
