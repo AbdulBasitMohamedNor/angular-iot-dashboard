@@ -1,0 +1,1 @@
+import"./chunk-JKOY2XUY.js";var t=[{path:"",loadComponent:()=>import("./chunk-C7OOYEML.js").then(e=>e.DeviceListComponent),title:"Device List"},{path:":id",loadComponent:()=>import("./chunk-52DFKXDV.js").then(e=>e.DeviceDetailsComponent),title:"Device Details"}];export{t as devicesRoutes};

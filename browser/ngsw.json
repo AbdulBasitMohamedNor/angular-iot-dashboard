@@ -1,0 +1,107 @@
+{
+  "configVersion": 1,
+  "timestamp": 1758748443581,
+  "index": "/angular-iot-dashboard/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/angular-iot-dashboard/chunk-3BSNAOWP.js",
+        "/angular-iot-dashboard/chunk-52DFKXDV.js",
+        "/angular-iot-dashboard/chunk-7JGYST7N.js",
+        "/angular-iot-dashboard/chunk-APSKB3QQ.js",
+        "/angular-iot-dashboard/chunk-C7OOYEML.js",
+        "/angular-iot-dashboard/chunk-FR5LRTIR.js",
+        "/angular-iot-dashboard/chunk-H2ARN4F4.js",
+        "/angular-iot-dashboard/chunk-IXHID7VA.js",
+        "/angular-iot-dashboard/chunk-JKOY2XUY.js",
+        "/angular-iot-dashboard/chunk-LZBOUK67.js",
+        "/angular-iot-dashboard/chunk-M37DUL5S.js",
+        "/angular-iot-dashboard/chunk-NBOEOH2R.js",
+        "/angular-iot-dashboard/chunk-NDI274KZ.js",
+        "/angular-iot-dashboard/chunk-O2L5AB6G.js",
+        "/angular-iot-dashboard/favicon.ico",
+        "/angular-iot-dashboard/index.html",
+        "/angular-iot-dashboard/main-QSZ4ECRQ.js",
+        "/angular-iot-dashboard/manifest.webmanifest",
+        "/angular-iot-dashboard/polyfills-5CFQRCPP.js",
+        "/angular-iot-dashboard/styles-UK6ANGD4.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/angular-iot-dashboard/icons/icon-128x128.png",
+        "/angular-iot-dashboard/icons/icon-144x144.png",
+        "/angular-iot-dashboard/icons/icon-152x152.png",
+        "/angular-iot-dashboard/icons/icon-192x192.png",
+        "/angular-iot-dashboard/icons/icon-384x384.png",
+        "/angular-iot-dashboard/icons/icon-512x512.png",
+        "/angular-iot-dashboard/icons/icon-72x72.png",
+        "/angular-iot-dashboard/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/angular-iot-dashboard/chunk-3BSNAOWP.js": "b160decb61d0e576d061205f1b1177ccf0d39c18",
+    "/angular-iot-dashboard/chunk-52DFKXDV.js": "87be203fa75111ba7d351248b474d43d07a18ecf",
+    "/angular-iot-dashboard/chunk-7JGYST7N.js": "6149ec25e265d02fc1f6bce63e13cdd920948212",
+    "/angular-iot-dashboard/chunk-APSKB3QQ.js": "53c03d9c5f73dc21e90c5e7a3f3c9c3e8491fec8",
+    "/angular-iot-dashboard/chunk-C7OOYEML.js": "74ab9af84bbb967eea339163f6a6e024c4731781",
+    "/angular-iot-dashboard/chunk-FR5LRTIR.js": "5579f1b6e8a892af6f9e4ea3dbba975a7b8ab283",
+    "/angular-iot-dashboard/chunk-H2ARN4F4.js": "d6f822c3653bc05ce9a23c11b97b2ce19827dfd8",
+    "/angular-iot-dashboard/chunk-IXHID7VA.js": "2b5cdab845cba2ae2bcdfa0046e82c135d2527ac",
+    "/angular-iot-dashboard/chunk-JKOY2XUY.js": "fafb26c4cc5eac68e8d1759ffbbad95dee5522b7",
+    "/angular-iot-dashboard/chunk-LZBOUK67.js": "e2e44fd82382b183ad568925545bd35799f3c991",
+    "/angular-iot-dashboard/chunk-M37DUL5S.js": "0f8dd3183ec381e5a79e5339a5ac4bd1454627f7",
+    "/angular-iot-dashboard/chunk-NBOEOH2R.js": "19f2dea69af36bddcf099cf4e00845d2ad9d0f96",
+    "/angular-iot-dashboard/chunk-NDI274KZ.js": "783b7b5990e423387723791d01e2f148832fc130",
+    "/angular-iot-dashboard/chunk-O2L5AB6G.js": "d05753ebf0505b7a67492667d1dedf79479d00c8",
+    "/angular-iot-dashboard/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
+    "/angular-iot-dashboard/icons/icon-128x128.png": "f912963bdc6d5a38d8f1dd0afbaab2ce8d657acb",
+    "/angular-iot-dashboard/icons/icon-144x144.png": "b155fd5f2fd5d2ea7760721063003c4cd95fd783",
+    "/angular-iot-dashboard/icons/icon-152x152.png": "eae6e0f0c8afb8aaae339e2a569b43e9238e5e6c",
+    "/angular-iot-dashboard/icons/icon-192x192.png": "15c4180454633880d98674aa7394656196c91584",
+    "/angular-iot-dashboard/icons/icon-384x384.png": "94a915751ef6c9282df9aea405ad679230631814",
+    "/angular-iot-dashboard/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
+    "/angular-iot-dashboard/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
+    "/angular-iot-dashboard/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
+    "/angular-iot-dashboard/index.html": "5dd5b7671b3f530df1cc6c71d416e13a1fd47a0a",
+    "/angular-iot-dashboard/main-QSZ4ECRQ.js": "306d5f802c352eb3ce11413c8eb4cecb14c7bacc",
+    "/angular-iot-dashboard/manifest.webmanifest": "ed64e0b8837f2037ff3a60a997bd569bf935acb5",
+    "/angular-iot-dashboard/polyfills-5CFQRCPP.js": "f2241e9a25858f895ce299d15f6f22e849e2fd72",
+    "/angular-iot-dashboard/styles-UK6ANGD4.css": "45f28678010c5a53a4362716090997cdee2a2ed5"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
