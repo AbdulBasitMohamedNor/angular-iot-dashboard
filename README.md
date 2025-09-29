@@ -1,4 +1,4 @@
-<img width="901" height="" alt="image" src="https://raw.githubusercontent.com/AbdulBasitMohamedNor/angular-iot-dashboard/refs/heads/main/file_00000000cba06243997b380cd4cd43f0.png" />
+
 
 visit Live demo [here](https://abdulbasitmohamednor.github.io/angular-iot-dashboard/iot/dashboard):
 
